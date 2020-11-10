@@ -29,11 +29,11 @@ Applying ROT13 to a piece of text merely requires examining its alphabetic chara
 
 ![decryp1](https://user-images.githubusercontent.com/63917673/98724507-29e5f380-2394-11eb-908c-4bebbaac37ec.png)
 
-Everything is nearly the same thing as in the "encrypt" function. But in this case wi will do the opposite, Decrypt.
+**Everything is nearly the same thing** as in the **"encrypt"** function. But in this case ti will do the opposite, Decrypt.
 
 ⮞ In function **"decrypt"** the input is the message we want to edecrypt. It can be sent from a Main Class or from a form as well (**Same thing as function "encrypt"**). **Orange box** represents input data. It can only be String type (We want to convert messages no other type of data).
 
-⮞ The **red box** surrounds the variable "decodedMessage", this variable will receive all chars converted from ROT13 alphabet to normal alphabet and all of them will be concatenated with each other respectively. 
+⮞ The **red box** surrounds the variable **"decodedMessage"**, this variable will receive all chars converted from ROT13 alphabet to normal alphabet and all of them will be concatenated with each other respectively. 
 
 ⮞ For Loop surrounded by **green** goes through the message we want to decrypt from start to finish. **"i"** variable declared in for loop will be used to check each char in the position determined by it in the input message. 
 
