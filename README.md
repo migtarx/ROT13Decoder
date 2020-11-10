@@ -5,6 +5,6 @@ ROT13 is a simple letter substitution cipher that replaces a letter with the 13t
 * [How it works](#how-it-works)
 
 ## General info
-I created this project for name filtering in a project that required the username be written properly without symbols (ex: ?!^*+-=.etc). With this library you will be able to filter any String variable with a given characters you want by just calling to the main method of the Class.
-Coming soon!
+Applying ROT13 to a piece of text merely requires examining its alphabetic characters and replacing each one by the letter 13 places further along in the alphabet, wrapping back to the beginning if necessary. A becomes N, B becomes O, and so on up to M, which becomes Z, then the sequence continues at the beginning of the alphabet: N becomes A, O becomes B, and so on to Z, which becomes M.
+![ROT13WHITE](https://user-images.githubusercontent.com/63917673/98718239-78908f00-238e-11eb-8873-443c9853b01c.png)
 ## How it works
