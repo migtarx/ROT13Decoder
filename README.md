@@ -13,17 +13,17 @@ Applying ROT13 to a piece of text merely requires examining its alphabetic chara
 
 ![encryp1](https://user-images.githubusercontent.com/63917673/98723659-f8b8f380-2392-11eb-978f-03bfd7080622.png)
 
-**→**In function "encrypt" the input is the message we want to encrypt. It can be sent from a Main Class or from a form as well. **Orange box** represents input data. It can only be String type (We want to convert messages no numbers)
+⮞ In function "encrypt" the input is the message we want to encrypt. It can be sent from a Main Class or from a form as well. **Orange box** represents input data. It can only be String type (We want to convert messages no numbers)
 
-**→**The **red box** surrounds the variable "codedMessage", this variable will receive all chars converted from normal alphabet to ROT13 alphabet and all of them will be concatenated with each other respectively.
+⮞ The **red box** surrounds the variable "codedMessage", this variable will receive all chars converted from normal alphabet to ROT13 alphabet and all of them will be concatenated with each other respectively.
 
-**→**For Loop surrounded by **green** goes through the message we want to encrypt from start to finish. With "i" variable declared in for loop will be used to check each char in the position determined by it in the input message. 
+⮞ For Loop surrounded by **green** goes through the message we want to encrypt from start to finish. With "i" variable declared in for loop will be used to check each char in the position determined by it in the input message. 
 
-**→**For Loop surrounded by **blue color** goes through the alphabet string from start to finish. **"j"** varible declared in for loop will be used to check each char in the position determined by it in the **"alphabet"** string.
+⮞ For Loop surrounded by **blue color** goes through the alphabet string from start to finish. **"j"** varible declared in for loop will be used to check each char in the position determined by it in the **"alphabet"** string.
 
-**→**Finally, going through **if stament** (which is surrounded by a **yellow box**), checks the content in the position of the input String **"message"** with **"chartAt" method** and inside of it, with **"i"** variable will determine the position to check. With this, **if stament** will **compare** the character **extracted** from the input string **"message"** and later it will be checked with the one **extracted** from the String "**alphabet"**. **If both characters match**, it will enter the conditional structure "if" and with "j" variable previusly declared in the second for loop it will extract the character from string "rot13Alphabet" (Which is already ordered to match with the normal alphabet applying the standard established by ROT13) in the given position determinated by **"j"** value.
+⮞ Finally, going through **if stament** (which is surrounded by a **yellow box**), checks the content in the position of the input String **"message"** with **"chartAt" method** and inside of it, with **"i"** variable will determine the position to check. With this, **if stament** will **compare** the character **extracted** from the input string **"message"** and later it will be checked with the one **extracted** from the String "**alphabet"**. **If both characters match**, it will enter the conditional structure "if" and with "j" variable previusly declared in the second for loop it will extract the character from string "rot13Alphabet" (Which is already ordered to match with the normal alphabet applying the standard established by ROT13) in the given position determinated by **"j"** value.
 
-**→Return stament** takes care of returning the message encrypted (It's surrounded with **purple color**)
+⮞ Return stament** takes care of returning the message encrypted (It's surrounded with **purple color**)
 
 **Message Decryption**
 
