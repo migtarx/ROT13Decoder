@@ -11,4 +11,4 @@ Applying ROT13 to a piece of text merely requires examining its alphabetic chara
 ## How it works
 **Message Encryption**
 
-![encryp2](https://user-images.githubusercontent.com/63917673/98723552-d6bf7100-2392-11eb-83d9-67c46d20a892.png)
+![encryp1](https://user-images.githubusercontent.com/63917673/98723659-f8b8f380-2392-11eb-978f-03bfd7080622.png)
