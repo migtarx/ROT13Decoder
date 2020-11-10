@@ -9,6 +9,6 @@ Applying ROT13 to a piece of text merely requires examining its alphabetic chara
 
 ![ROT13WHITE](https://user-images.githubusercontent.com/63917673/98718239-78908f00-238e-11eb-8873-443c9853b01c.png)
 ## How it works
-**Encrypt**
+**Message Encryption**
 
-![encryp1](https://user-images.githubusercontent.com/63917673/98723108-38331000-2392-11eb-8ccc-1676d364c2a8.png)
+![encryp2](https://user-images.githubusercontent.com/63917673/98723552-d6bf7100-2392-11eb-83d9-67c46d20a892.png)
